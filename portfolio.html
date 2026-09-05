@@ -31,7 +31,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16 md:h-20">
         <a href="index.html" class="flex items-center gap-3">
-          <img src="images/logo.png" alt="RichRock Designers" class="h-10 md:h-12 w-auto object-contain">
+          <img src="images/logo-white.svg" alt="RichRock Designers" class="h-10 md:h-12 w-auto object-contain">
         </a>
         <div class="hidden md:flex items-center space-x-8">
           <a href="index.html" class="text-gray-300 hover:text-white transition">Home</a>
@@ -72,64 +72,135 @@
   <section class="py-16 md:py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <!-- Placeholder notice -->
-      <div class="bg-blue-50 border border-blue-100 rounded-2xl p-8 mb-12 text-center">
-        <h2 class="text-xl font-bold text-primary-900 mb-3">Portfolio Coming Soon</h2>
-        <p class="text-gray-600 max-w-2xl mx-auto mb-6">
-          We are currently preparing a full showcase of our recent work. In the meantime, feel free to contact us — we can share relevant samples of logos, print materials, branding projects and more based on what you need.
-        </p>
-        <a href="contact.html" class="inline-block bg-primary-700 hover:bg-primary-800 text-white px-6 py-3 rounded-full font-medium transition">Request Samples</a>
+      <!-- Portfolio Grid - Creative Mockups -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
+        <!-- Banner Mockup -->
+        <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="aspect-[4/3] bg-gradient-to-br from-blue-700 via-indigo-600 to-purple-700 p-6 flex flex-col justify-between relative">
+            <div class="absolute inset-0 opacity-20">
+              <div class="absolute top-4 right-4 w-32 h-32 rounded-full bg-white/30 blur-2xl"></div>
+              <div class="absolute bottom-8 left-8 w-24 h-24 rounded-full bg-yellow-300/40 blur-xl"></div>
+            </div>
+            <div class="relative z-10">
+              <span class="inline-block bg-white/20 text-white text-xs font-semibold px-3 py-1 rounded-full mb-3">BANNER</span>
+              <h3 class="text-white text-2xl font-bold leading-tight">SUMMER<br>SALE 2026</h3>
+            </div>
+            <div class="relative z-10">
+              <p class="text-blue-100 text-sm">Large Format • Outdoor & Indoor</p>
+            </div>
+          </div>
+          <div class="bg-white p-4">
+            <h4 class="font-bold text-primary-950">Event & Promo Banners</h4>
+            <p class="text-sm text-gray-500">Eye-catching large format designs for promotions and events</p>
+          </div>
+        </div>
+
+        <!-- Flyer Mockup -->
+        <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="aspect-[4/3] bg-gradient-to-br from-rose-500 via-orange-500 to-amber-400 p-6 flex flex-col justify-between relative">
+            <div class="absolute inset-0 opacity-30">
+              <div class="absolute -top-6 -left-6 w-40 h-40 rounded-full bg-white/20"></div>
+              <div class="absolute bottom-0 right-0 w-28 h-28 bg-yellow-200/30 rounded-tl-full"></div>
+            </div>
+            <div class="relative z-10 text-center pt-4">
+              <p class="text-white/90 text-xs tracking-widest uppercase mb-1">Grand Opening</p>
+              <h3 class="text-white text-3xl font-extrabold">NEW MENU</h3>
+              <p class="text-white/90 text-sm mt-2">Taste the difference</p>
+            </div>
+            <div class="relative z-10 text-center">
+              <span class="inline-block bg-white text-rose-600 text-xs font-bold px-4 py-1.5 rounded-full">THIS WEEKEND</span>
+            </div>
+          </div>
+          <div class="bg-white p-4">
+            <h4 class="font-bold text-primary-950">Promotional Flyers</h4>
+            <p class="text-sm text-gray-500">High-impact flyers that get attention and drive action</p>
+          </div>
+        </div>
+
+        <!-- Poster Mockup -->
+        <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="aspect-[4/3] bg-gradient-to-b from-slate-900 via-slate-800 to-emerald-900 p-6 flex flex-col justify-end relative">
+            <div class="absolute top-6 left-6 right-6">
+              <div class="h-1 w-16 bg-emerald-400 mb-3"></div>
+              <p class="text-emerald-300 text-xs font-semibold tracking-wider">LIVE CONCERT</p>
+            </div>
+            <div class="relative z-10">
+              <h3 class="text-white text-2xl md:text-3xl font-black leading-none">NIGHT<br>OF LIGHTS</h3>
+              <p class="text-slate-300 text-sm mt-2">Saturday • 8PM • City Arena</p>
+            </div>
+          </div>
+          <div class="bg-white p-4">
+            <h4 class="font-bold text-primary-950">Event Posters</h4>
+            <p class="text-sm text-gray-500">Bold poster designs for concerts, launches and campaigns</p>
+          </div>
+        </div>
+
+        <!-- Business Card Mockup -->
+        <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="aspect-[4/3] bg-gradient-to-br from-gray-100 to-gray-200 p-8 flex items-center justify-center">
+            <div class="w-full max-w-[220px] bg-white rounded-xl shadow-xl p-5 transform group-hover:scale-105 transition duration-300 border border-gray-100">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-rose-500 via-amber-400 to-blue-500 flex items-center justify-center text-white font-black text-lg">R</div>
+                <div>
+                  <p class="font-bold text-sm text-slate-800 leading-tight">RichRock</p>
+                  <p class="text-[10px] text-slate-500">Designers & Printers</p>
+                </div>
+              </div>
+              <div class="border-t border-gray-100 pt-3 space-y-1">
+                <p class="text-[11px] text-slate-600">+254 718 225 913</p>
+                <p class="text-[11px] text-slate-600">richrockdesigners</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white p-4">
+            <h4 class="font-bold text-primary-950">Business Cards</h4>
+            <p class="text-sm text-gray-500">Premium cards that make a strong first impression</p>
+          </div>
+        </div>
+
+        <!-- Brochure / Branding Mockup -->
+        <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="aspect-[4/3] bg-gradient-to-br from-violet-600 to-indigo-800 p-6 flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute -right-8 -top-8 w-40 h-40 rounded-full border-8 border-white/10"></div>
+            <div class="absolute -left-4 bottom-4 w-24 h-24 rounded-full bg-pink-500/20"></div>
+            <div class="relative z-10">
+              <span class="text-violet-200 text-xs font-semibold tracking-widest">BRAND IDENTITY</span>
+              <h3 class="text-white text-xl font-bold mt-2">Complete<br>Brand System</h3>
+            </div>
+            <div class="relative z-10 flex gap-2">
+              <div class="w-8 h-8 rounded-full bg-rose-400"></div>
+              <div class="w-8 h-8 rounded-full bg-amber-400"></div>
+              <div class="w-8 h-8 rounded-full bg-emerald-400"></div>
+              <div class="w-8 h-8 rounded-full bg-sky-400"></div>
+            </div>
+          </div>
+          <div class="bg-white p-4">
+            <h4 class="font-bold text-primary-950">Branding Packages</h4>
+            <p class="text-sm text-gray-500">Logo, colours, stationery & brand guidelines</p>
+          </div>
+        </div>
+
+        <!-- Packaging Mockup -->
+        <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="aspect-[4/3] bg-gradient-to-t from-amber-800 via-amber-600 to-yellow-500 p-6 flex flex-col justify-end relative">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.25),transparent_50%)]"></div>
+            <div class="relative z-10">
+              <p class="text-amber-100 text-xs font-semibold tracking-wider mb-1">PREMIUM PACKAGING</p>
+              <h3 class="text-white text-2xl font-bold">Crafted<br>with Care</h3>
+            </div>
+          </div>
+          <div class="bg-white p-4">
+            <h4 class="font-bold text-primary-950">Product Packaging</h4>
+            <p class="text-sm text-gray-500">Labels, boxes and packaging that sell the product</p>
+          </div>
+        </div>
+
       </div>
 
-      <!-- Example categories (placeholders) -->
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="bg-gray-100 rounded-2xl aspect-[4/3] flex flex-col items-center justify-center p-6 text-center border border-gray-200">
-          <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4 shadow-sm">
-            <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-          </div>
-          <h3 class="font-semibold text-primary-950">Logo Design</h3>
-          <p class="text-sm text-gray-500 mt-1">Brand marks & identity systems</p>
-        </div>
-        
-        <div class="bg-gray-100 rounded-2xl aspect-[4/3] flex flex-col items-center justify-center p-6 text-center border border-gray-200">
-          <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4 shadow-sm">
-            <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
-          </div>
-          <h3 class="font-semibold text-primary-950">Print Materials</h3>
-          <p class="text-sm text-gray-500 mt-1">Flyers, brochures & stationery</p>
-        </div>
-        
-        <div class="bg-gray-100 rounded-2xl aspect-[4/3] flex flex-col items-center justify-center p-6 text-center border border-gray-200">
-          <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4 shadow-sm">
-            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
-          </div>
-          <h3 class="font-semibold text-primary-950">Branding Packages</h3>
-          <p class="text-sm text-gray-500 mt-1">Full visual identity systems</p>
-        </div>
-        
-        <div class="bg-gray-100 rounded-2xl aspect-[4/3] flex flex-col items-center justify-center p-6 text-center border border-gray-200">
-          <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4 shadow-sm">
-            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg>
-          </div>
-          <h3 class="font-semibold text-primary-950">Large Format</h3>
-          <p class="text-sm text-gray-500 mt-1">Banners, signage & displays</p>
-        </div>
-        
-        <div class="bg-gray-100 rounded-2xl aspect-[4/3] flex flex-col items-center justify-center p-6 text-center border border-gray-200">
-          <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4 shadow-sm">
-            <svg class="w-8 h-8 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
-          </div>
-          <h3 class="font-semibold text-primary-950">Digital & Social</h3>
-          <p class="text-sm text-gray-500 mt-1">Social media & digital assets</p>
-        </div>
-        
-        <div class="bg-gray-100 rounded-2xl aspect-[4/3] flex flex-col items-center justify-center p-6 text-center border border-gray-200">
-          <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mb-4 shadow-sm">
-            <svg class="w-8 h-8 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
-          </div>
-          <h3 class="font-semibold text-primary-950">Packaging</h3>
-          <p class="text-sm text-gray-500 mt-1">Product packaging & labels</p>
-        </div>
+      <div class="mt-12 text-center">
+        <p class="text-gray-600 mb-4">These are sample styles of the work we create. Want to see real client projects or discuss your own?</p>
+        <a href="contact.html" class="inline-block bg-primary-700 hover:bg-primary-800 text-white px-8 py-3 rounded-full font-semibold transition">Request Real Samples or a Quote</a>
       </div>
     </div>
   </section>
@@ -145,7 +216,7 @@
   <footer class="bg-primary-950 text-gray-300 pt-12 pb-8">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row justify-between items-center gap-6">
-        <img src="images/logo.png" alt="RichRock" class="h-10 object-contain">
+        <img src="images/logo-white.svg" alt="RichRock" class="h-10 object-contain">
         <div class="flex gap-6 text-sm">
           <a href="index.html" class="hover:text-white">Home</a>
           <a href="services.html" class="hover:text-white">Services</a>
